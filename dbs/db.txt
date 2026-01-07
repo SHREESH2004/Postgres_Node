@@ -13,5 +13,15 @@ Integrity: Accuracy and validity of data(the data is not corrupt or valid)
 ex: in stocks left in ecommerce system, then number should be enter so that dbms make sure only number data type and no other 
 data type entered
 
-Why not txt files? Problem is parsing , parse all the lines and compare each field which is very time taking
+Why not txt files? 
+1.Problem is parsing , parse all the lines and compare each field which is very time taking u can
+also corrupt ur data or provide wrong info and so also error prone
+
+2. txt file has no structure and so hard to enforce consistency(It prevents invalid data from being stored and ensures that 
+any transaction,if it violates these rules, is rolled back to preserve the database's integrity)
+
+3. Concurrency:2 differect user trying to change same variable there should be a consistent mechanism so that
+consistency exist
+
+DBMS types:1. Relational, 2.Non-Relational
 

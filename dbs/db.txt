@@ -25,3 +25,11 @@ consistency exist
 
 DBMS types:1. Relational, 2.Non-Relational
 
+
+Postgres: very good JSON support, that why people prefered in non-relational but now in relational db in Postgres
+along with good query support and great scalability, if no strict schem then use JSON schema and dump it
+
+Postgres is the dbms where we execute using sql queries
+
+
+

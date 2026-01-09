@@ -33,3 +33,4 @@ Postgres is the dbms where we execute using sql queries
 
 
 case insensitive upper case more readable
+

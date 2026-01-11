@@ -4,3 +4,6 @@ distinct
 order
 limit 
 like
+
+
+Start from relational operators

@@ -1,0 +1,6 @@
+Clauses:
+Where : select * from employee where emp_id=5;
+distinct
+order
+limit 
+like

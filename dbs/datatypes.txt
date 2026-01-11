@@ -1,0 +1,4 @@
+Numeric- INT DOUBLE FLOAT DEICIMAL
+String- VARCHAR
+Date- DATE
+Boolean- BOOLEAN

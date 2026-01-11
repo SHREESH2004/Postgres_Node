@@ -2,3 +2,7 @@ Numeric- INT DOUBLE FLOAT DEICIMAL
 String- VARCHAR
 Date- DATE
 Boolean- BOOLEAN
+
+
+Check in postres documentation for datatypes
+NOT NULL

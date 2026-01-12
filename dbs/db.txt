@@ -38,3 +38,4 @@ case insensitive upper case more readable
 Commands: Usually SQL commands
 Update: Update person set city='London' where id='2';
 Delete: delete from person where name="shs";
+

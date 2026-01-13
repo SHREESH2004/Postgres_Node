@@ -1,2 +1,6 @@
 Select concat(fname,lname) from employee;
 It will appear in concat column.
+using aliases: Select concat(fname,lname) as fullname from employee;
+Select emp_id,concat(fname,lname) as fullname,dept from employee;
+
+

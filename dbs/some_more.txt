@@ -1,0 +1,10 @@
+alter: Alter table employee add column age int; 
+drop column age;
+
+alter table employee rename fname to firstname;
+alter table employee alter column fname set data type varchar(200);
+
+
+CREATE TABLE CONTACT{
+    MOB VARCHAR(200) check (length(MOB)>=10);
+}

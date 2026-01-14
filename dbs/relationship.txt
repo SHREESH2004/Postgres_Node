@@ -24,6 +24,7 @@ Right : same in reverse
 
 Many to Many:
 
-
+select * from employee e join student s on e.s_id=s.s_id
+join courses s on e.c_id=c.c_id;
 
 

@@ -1,19 +1,23 @@
 {
-  "dependencies": {
-    "express": "^5.2.1"
-  },
   "name": "budget_control",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "dist/index.js", 
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\"",
     "seed": "node prisma/seed.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^5.2.1",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "nodemon": "^3.1.0",
+    "concurrently": "^9.2.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.0.0",
+    "@types/dotenv": "^6.1.1"
+  }
 }

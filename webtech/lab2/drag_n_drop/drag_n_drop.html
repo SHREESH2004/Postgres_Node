@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Drag and Drop Image</title>
+  <link rel="stylesheet" href="drag.css">
+  <script src="drag.js" defer></script>
+</head>
+
+<body>
+
+<h2>HTML5 Drag and Drop Image</h2>
+<img
+  id="dragImage"
+  src="https://m.media-amazon.com/images/I/71yj7FyxSvL._AC_UF1000,1000_QL80_.jpg"
+  draggable="true"
+  ondragstart="drag(event)"
+  alt="Product Image"
+/>
+
+<!-- Drop Area -->
+<div id="dropBox"
+     ondragover="allowDrop(event)"
+     ondrop="drop(event)">
+  Drop Image Here
+</div>
+
+
+</body>
+</html>

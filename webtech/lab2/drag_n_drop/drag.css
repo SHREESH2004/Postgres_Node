@@ -1,0 +1,28 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    #dragImage {
+      width: 150px;
+      cursor: grab;
+      margin-bottom: 30px;
+    }
+
+    #dropBox {
+      width: 320px;
+      height: 220px;
+      border: 2px dashed #333;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+    }

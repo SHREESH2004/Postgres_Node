@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -55,6 +55,7 @@ app.post("/transactions", async (req: Request, res: Response): Promise<void> => 
     client.release();
   }
 });
+
 
 async function startServer() {
   try {
